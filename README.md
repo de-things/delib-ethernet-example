@@ -2,7 +2,7 @@
 <image src=https://github.com/de-things/delib-ethernet-example/blob/main/res/example-ethernet-led-scheme.svg />
 
 ### How to deploy a firmware
-1. Install **[delib](https://github.com/de-things/delib/tree/main)**;
+1. Install **[delib](https://github.com/de-things/delib)**;
 2. Flash firmware to the `Arduino Uno`.
 
 ### Hardware used in assembly
