@@ -1,8 +1,8 @@
-#include <DelibEthernet.h> // include ethernet module
+#include <DelibEthernet.h> // include Ethernet module
 
 #define LED_PIN 8 // some pin to work with
 
-byte mac[] = { 0x16, 0x16, 0x16, 0x16, 0x16, 0x16 }; // some mac to assign to device
+byte mac[] = { 0x16, 0x16, 0x16, 0x16, 0x16, 0x16 }; // some mac device to assign
 
 DelibEthernet delib = DelibEthernet(); // delib instance
 
