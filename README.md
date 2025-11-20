@@ -3,7 +3,7 @@
 
 ### How to deploy a firmware
 1. Install **[delib](https://github.com/de-things/delib/tree/main)**;
-2. Flash firmware to the Arduino Uno.
+2. Flash firmware to the `Arduino Uno`.
 
 ### Hardware used in assembly
 * **[Ethernet Shield W5500](https://amperka.ru/product/arduino-ethernet-shield)**
