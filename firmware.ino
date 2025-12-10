@@ -22,9 +22,11 @@ void loop() {
   // will trigger this kind of code:
   if (delib.get_command() == "on") { // do something if the latest command is "on"
     digitalWrite(LED_PIN, HIGH);
+    delib.set_response("enabled!"); // set custom response message
   }
   if (delib.get_command() == "off") { // do something if the latest command is "off"
     digitalWrite(LED_PIN, LOW);
+    delib.set_response("disabled!"); // set custom response message
   }
 
   // to understand commands more, i believe you need to check a `delib-web` sdk repo.
