@@ -29,5 +29,5 @@ void loop() {
     delib.set_response("disabled!"); // set custom response message
   }
 
-  // to understand commands more, i believe you need to check a `delib-web` sdk repo.
+  // to understand commands more, i believe you need to check the `delib-web-sdk` repo.
 }
